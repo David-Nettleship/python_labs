@@ -13,4 +13,4 @@ print(type(info))
 for i in info:
     print(str(i) + " " + " " + str(info[i]))
     #forwardPE  31.308641
-    #trailingPE  36.88108dgfsd
+    #trailingPE  36.88108dgfsdgs
