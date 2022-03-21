@@ -1,4 +1,5 @@
 import yfinance as yf
+import json
 
 #print(info)
 #print(type(info))
@@ -41,6 +42,7 @@ def historic_pe(ticker):
 
 # FAAMG (MAAMG?)
 tickers = ['FB','AAPL','AMZN','MSFT','GOOGL']
+tickers = ['FB','MSFT']
 
 #main
 for t in tickers:
@@ -52,6 +54,6 @@ for t in tickers:
     #print(stats.get('financialData'))
     #print(ticker.balancesheet)
 
-    # stock_issuance(ticker)
+    stock_issuance(ticker)
     # earnings(ticker)
-    historic_pe(ticker)
+    #historic_pe(ticker)
