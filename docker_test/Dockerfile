@@ -1,4 +1,5 @@
 #Dockerfile, Image, Container
+# docker run -t -i python_imdb
 
 FROM python:3.8
 
